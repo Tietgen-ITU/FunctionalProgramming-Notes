@@ -2,7 +2,7 @@
 id: SQqHMbuyNrj3f4ZJBhAxm
 title: Function Expressions With Patterns
 desc: ''
-updated: 1643822955234
+updated: 1643910852904
 created: 1643821895884
 ---
 It is sometimes useful to define function in terms of cases e.g.
