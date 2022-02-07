@@ -2,7 +2,7 @@
 id: KS3be0TjIiAboOxoYmVXM
 title: Strings
 desc: ''
-updated: 1643929047363
+updated: 1644234323632
 created: 1643928124789
 ---
 Strings is an array of chars (characters).
