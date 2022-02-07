@@ -2,7 +2,7 @@
 id: bQmQRacz3X2vUfdiv1o6L
 title: If Else
 desc: ''
-updated: 1644061271575
+updated: 1644215296759
 created: 1643929055212
 ---
 The expression form for if else is the following 
@@ -16,3 +16,10 @@ A concrete example is the following:
 
 It is also possible to replace the pattern matching with the following syntax in the function:
 ![](/assets/images/2022-02-05-12-38-17.png)
+
+You can also do an else if you do so by using the keyword `elif`.
+```F#
+if exp1 then exp2
+elif exp3 then exp4
+else exp5
+```
