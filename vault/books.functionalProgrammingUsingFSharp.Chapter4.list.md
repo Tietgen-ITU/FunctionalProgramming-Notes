@@ -2,7 +2,7 @@
 id: 3hXW8VEIs5OLWKfUVcZ9r
 title: List
 desc: ''
-updated: 1644300491436
+updated: 1644394183786
 created: 1644257873523
 ---
 When we want to declare a list then we can do the following:
@@ -54,6 +54,9 @@ The list can be ascending or descending. And you can declare how much the value 
 
 ## Append lists
 It is also a possibility to append to lists together we can do so by using the `List.append` function or use the infix operator `@`.
+The append function can be used like the following example:
+![](/assets/images/2022-02-09-09-09-40.png)
+
 The infix `@` is implemented in the following way:
 ![](/assets/images/2022-02-08-07-02-20.png)
 ![](/assets/images/2022-02-08-07-02-29.png) 

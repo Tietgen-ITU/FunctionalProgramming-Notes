@@ -2,7 +2,7 @@
 id: 3ScHvVzpllt1tgoB0jN8E
 title: Fold And FoldBack
 desc: ''
-updated: 1644312931682
+updated: 1644396548047
 created: 1644301018456
 ---
 ## Fold
@@ -26,3 +26,6 @@ The `List.fold` function starts from the start i.e. index 0.
 
 ## FoldBack
 The `List.foldBack` is basically the same as the `List.fold` function. The way that it differs is that the `List.foldBack` starts from the bottom i.e. the last index of the list.
+
+# Evaluation example
+![](/assets/images/2022-02-09-09-47-02.png)
