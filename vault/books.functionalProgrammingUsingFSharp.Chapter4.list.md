@@ -2,7 +2,7 @@
 id: 3hXW8VEIs5OLWKfUVcZ9r
 title: List
 desc: ''
-updated: 1644394183786
+updated: 1644398068565
 created: 1644257873523
 ---
 When we want to declare a list then we can do the following:
@@ -32,6 +32,7 @@ The operator associates to the right. so $x_0::x_1::xs$ which really means that 
 ## Pattern 
 It is also possible to assign values based on a pattern from the list.
 As you can see here the `x::xs` pattern will assign the first value to an  `x` variable and the rest of the list to `xs`:
+
 ![](/assets/images/2022-02-08-06-33-39.png)
 
 You can also do so with more values and or use pairs:
