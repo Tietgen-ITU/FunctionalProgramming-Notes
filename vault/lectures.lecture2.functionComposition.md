@@ -2,7 +2,7 @@
 id: sRDROVkR8bvqjYeuLuq8B
 title: Function Composition
 desc: ''
-updated: 1644605305127
+updated: 1644953949692
 created: 1644390472024
 ---
 Functions can be composed.
@@ -17,27 +17,5 @@ Here we have an example:
 
 ![](/assets/images/2022-02-09-08-31-55.png)
 
+The thing about this is that the function on the left of `>>` get evaluated first then it parses the value to the next function and evalutes its function with that value. 
 
-// Todo the rest of this does not belong to function composition
-# Functions
-Some things in imperative languages is not valid:
- ![](/assets/images/2022-02-09-08-08-20.png)
-
-However the above example is acutally valid for functional languages!
-
-## What is an expression?
-
-An expression is a computation that returns something that is calculated or evaluated e.g.
-![](/assets/images/2022-02-09-08-09-32.png)
-
-## Functions can be used as values or parameters
-![](/assets/images/2022-02-09-08-10-20.png)
-
-## Anonymous functions
-This is about [[books.functionalProgrammingUsingFSharp.Chapter1.anonymousFunctions]]
-![](/assets/images/2022-02-09-08-14-27.png)
-
-### Currying
-This is about: [[guides.currying]]
-
-![](/assets/images/2022-02-09-08-15-21.png)
