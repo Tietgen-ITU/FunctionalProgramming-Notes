@@ -2,9 +2,14 @@
 id: RiTzoUyZvbT5RPJBOxfQu
 title: Binary Tree
 desc: ''
-updated: 1644757533366
+updated: 1644999413305
 created: 1644756302334
 ---
+A binary search treee is a tree data structure where a node can have two children. The child on the left of the node is smaller than the current and the child node on the right is larger than the parent node:
+
+![](/assets/images/2022-02-16-08-35-23.png)
+
+# How to create a binary search tree in F#
 In order to create a binary tree that looks like the following:
 
 ![](/assets/images/2022-02-13-13-45-36.png)
@@ -49,6 +54,19 @@ We want to traverse down the following tree:
 The result is the following:
 
 ![](/assets/images/2022-02-13-14-04-45.png)
+
+#### Check for duplicates in the binary tree
+```F#
+let duplicates bt = 
+    let rec aux seen bt = 
+        match bt with 
+        | Leaf                                         -> (false, seen)
+        | Node (_, x, _) when List.exists ((=) x) seen -> (true, seen)
+        | Node (l, x, r)                               -> match aux (x::seen) 1 with
+                                                          | (true, seen') -> (true, seen')
+                                                          | (false, seen*) -> aux seen' r
+```
+>**Note:** that the `seen'` is not the same as the `seen` variable. Because the other name contains a `'` in the name.
 
 ---
 [^1] [[books.functionalProgrammingUsingFSharp.Chapter3.polymorphism]]

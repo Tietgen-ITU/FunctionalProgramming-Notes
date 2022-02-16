@@ -2,13 +2,15 @@
 id: nbIkcX8YuPisWHA3ky3SW
 title: Finite Sets
 desc: ''
-updated: 1644688689231
+updated: 1644999888577
 created: 1644687323351
 ---
 This is notes about the datastructure `Set` in F# and actually mathematics. 
 Because this data structure is the exact same behavior of the one we have in discrete mathematics. 
 
 A `Set` is an unordered collection.
+
+![](/assets/images/2022-02-16-09-18-25.png)
 
 # Math basics
 To start of a bit light then we denote the most basic things surrounding around a set.
@@ -54,6 +56,8 @@ You can also compare two sets:
 ## Operations
 ![](/assets/images/2022-02-12-18-56-01.png)
 
+Functions from the lecture 3:
+![](/assets/images/2022-02-16-09-19-13.png)
 ## Union, intersect and difference operations
 ![](/assets/images/2022-02-12-18-57-29.png)
 

@@ -2,10 +2,10 @@
 id: RE45VHW6ulIiWbuPAFEme
 title: Types
 desc: ''
-updated: 1644756279788
+updated: 1644995888357
 created: 1644392234536
 ---
-It is possible to declare our own types.
+It is possible to declare our own types. We here use the `type` keyword instead of `let`
 We do so like in the following example:
 ![](/assets/images/2022-02-09-08-39-13.png)
 
@@ -20,12 +20,6 @@ type complex = float * float;;
 let value = complex(2.0, 1.0);;
 > val value : complex = (2.0, 1.0)
 ```
-## Subtyping
-It is possible to declare multiple types under a specific type. We do so by denoting the type declaration with `|`.
-
-![](/assets/images/2022-02-13-13-29-48.png)
->**Note:** that the declaration uses the `of` keyword to tell which sort of types it represents.
-
 # Why?
 Why should we use types? It is a good way to use in pattern matching. It gives a good declarative sence of what we want and what we represent. 
 
