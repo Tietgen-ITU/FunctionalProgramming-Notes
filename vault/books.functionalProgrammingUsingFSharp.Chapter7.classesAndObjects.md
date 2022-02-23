@@ -2,7 +2,7 @@
 id: GILPwjTepeYMDWQ1pxXMp
 title: Classes and Objects
 desc: ''
-updated: 1645127396239
+updated: 1645600595910
 created: 1645127162941
 ---
 A class in F# looks like a type declaration but instead it also declares a contructor.
