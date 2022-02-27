@@ -2,7 +2,7 @@
 id: xYcRvblnuVYyHplhMk1Yr
 title: Inductively Defined Types
 desc: ''
-updated: 1644996349500
+updated: 1645630520238
 created: 1644995841254
 ---
 The algebraic types can be used like enums:
@@ -10,6 +10,7 @@ The algebraic types can be used like enums:
 ![](/assets/images/2022-02-16-08-11-30.png)
 
 It is also possible to do pattern matching:
+
 ![](/assets/images/2022-02-16-08-11-57.png)
 
 It is possible to declare multiple types under a specific type. We do so by denoting the type declaration with `|`.
