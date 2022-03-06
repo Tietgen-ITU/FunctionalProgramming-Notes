@@ -1,8 +1,8 @@
 ---
 id: xYcRvblnuVYyHplhMk1Yr
-title: Inductively Defined Types
+title: Inductively Defined Types (Union types)
 desc: ''
-updated: 1645630520238
+updated: 1646560643601
 created: 1644995841254
 ---
 The algebraic types can be used like enums:
