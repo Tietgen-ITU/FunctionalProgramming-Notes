@@ -2,10 +2,11 @@
 id: mndkgwnfxeniattv29r4uqa
 title: Iterative Functions
 desc: ''
-updated: 1646210711819
+updated: 1646676572502
 created: 1646205978861
 ---
 [[books.functionalProgrammingUsingFSharp.Chapter9.tailRecursionObtainedUsingContinuations]]
+
 What we want to achieve here is the tail recursion. 
 
 We want to avoid of building up the stack. With tail recursion is that you have coded a recursive call but it gets optimized to a iterativ function instead when compiled. 
@@ -20,7 +21,6 @@ The accumulator is a value that gets passed through each recursive call. Notice 
 ![](/assets/images/2022-03-02-08-49-10.png)
 
 Notice that we do not have to keep "saving" the recursive calls.
-
 
 This can also be done for the *List reversal* function:
 

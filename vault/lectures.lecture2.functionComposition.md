@@ -2,7 +2,7 @@
 id: sRDROVkR8bvqjYeuLuq8B
 title: Function Composition
 desc: ''
-updated: 1644953949692
+updated: 1646810238337
 created: 1644390472024
 ---
 Functions can be composed.

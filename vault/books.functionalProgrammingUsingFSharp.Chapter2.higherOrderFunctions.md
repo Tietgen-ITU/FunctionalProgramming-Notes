@@ -2,7 +2,7 @@
 id: FjstSJv4zejYRgJldG6e4
 title: Higher Order Functions
 desc: ''
-updated: 1645000498442
+updated: 1646810221574
 created: 1644061302013
 ---
 Functions are what is called first class citizens. That means that a function can be an argument of another function and the return value of the function can be a function returning that value. 

@@ -2,7 +2,7 @@
 id: Meuk5HCHLISn7PV4lCtXd
 title: Partial Application
 desc: ''
-updated: 1644391457834
+updated: 1646810582810
 created: 1644391099063
 ---
 Partial application is when you can reuse the function and apply it in different applications.
