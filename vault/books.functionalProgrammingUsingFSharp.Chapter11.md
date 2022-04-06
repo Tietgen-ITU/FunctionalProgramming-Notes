@@ -18,6 +18,18 @@ seq [10; 7; -25]
 > val it : seq<int> = [10; 7; -25]
 ```
 
+We can also use the `Init` function.
+The function has the following signature:
+
+![](/assets/images/2022-03-23-08-46-42.png)
+
+And can be used like the following:
+
+```F#
+Seq.init 4 (fun n -> n*n);;
+val it : seq<int> = seq [0; 1; 4; 9]
+```
+
 It is also possible to just compute a specific element in the sequence. You can do so by typing the following:
 ```F#
 let nat = Seq.initInfinite (fun i -> i);;
@@ -28,6 +40,9 @@ Seq.nth 5 nat;;
 ```
 
 >**Note:** that the `Seq.initInfinite` function initialize an infinite sequence with the function provided.
+
+## Examples
+![](/assets/images/2022-03-23-09-07-28.png)
 
 # Cached Sequences
 A *cached sequence* can be used if a re-computation of elements is undesirable. In other words a cached sequence remembers the initial part of the sequence that has already been computed. 
@@ -52,5 +67,18 @@ Seq.nth 5 natWithPrintCached;;
 ```
 >**Note:** Did you see what happened there? The cache has already computed the first 3 elements and therefor when called again it then starts from 4
 
+## Example
+![](/assets/images/2022-03-23-09-09-47.png)
+
 # Functions for sequences
+We also have higher order functions that can be used:
+
 ![](/assets/images/2022-03-17-19-11-10.png)
+
+## Filtering
+The filtering function give a list back with values that the predicate provided evaluates to `true`.
+
+![](/assets/images/2022-03-23-09-14-48.png)
+
+## Delay
+![](/assets/images/2022-03-23-09-17-31.png)

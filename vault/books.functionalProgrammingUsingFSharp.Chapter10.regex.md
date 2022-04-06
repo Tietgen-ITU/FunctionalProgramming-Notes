@@ -29,3 +29,8 @@ This is the result of the parsing:
 ![](/assets/images/2022-03-17-17-24-45.png)
 
 However, it is better to parse using a [[lectures.lecture7.parser]] that is monadic. 
+
+## Lecture
+This is the way we did it in the lecture:
+
+![](/assets/images/2022-03-23-08-27-13.png)

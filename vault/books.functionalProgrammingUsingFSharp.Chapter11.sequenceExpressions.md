@@ -21,3 +21,14 @@ We have two keywords that are important:
 Here we have the different constructs for the sequence expressions:
 
 ![](/assets/images/2022-03-17-19-24-30.png)
+
+An example of *Sequences* that is constructed with Expressions is implicitly lazy. In other words the `Seq.delay` function is wrapped around the sequence:
+
+![](/assets/images/2022-03-23-09-46-47.png)
+
+# Translations of expression keywords
+![](/assets/images/2022-03-23-09-47-22.png)
+
+![](/assets/images/2022-03-23-09-47-39.png)
+
+![](/assets/images/2022-03-23-09-48-41.png)
